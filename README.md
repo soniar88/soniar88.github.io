@@ -11,7 +11,8 @@
     I enjoy rainy days, tea and rock music
     A tv show I watched recently is: Parks and Rec
 ### Here is a photo of me 
-    <a href="/"><img src="./img/me.JPG" width="200", height="auto"></a>
+![](./img/me.JPG)
 ### And here is my favorite youtube video at the moment! </h3>
-    <a href="https://youtu.be/FY5CAz6S9kE">  <p> Hope you like it! </p> </a> 
+[](https://youtu.be/FY5CAz6S9kE)
+
     
