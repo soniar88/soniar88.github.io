@@ -11,7 +11,7 @@
     I enjoy rainy days, Thai tea and rock music
     A tv show I watched recently is: Parks and Rec
 ### Here is a photo of me 
-![](./img/me.JPG)
+![](./img/me.JPG) 
 ### And here is my favorite youtube video at the moment! </h3>
 [Link](https://youtu.be/FY5CAz6S9kE)
 
