@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  background-color: #ccc;
 }
 
 html {
@@ -17,6 +16,7 @@ article {
   height: 297mm;
   margin: 20px auto;
   position: relative;
+  background-color: white;
 }
 
 address {
@@ -37,37 +37,32 @@ h1 {
   padding: 44px 0;
   color: white;
   text-shadow: 1px 1px 1px black;
- /* background-image:url(logo.png); my solution */
+ 
 
 }
 
 /* Your CSS below here */
 
-
-
-
 article{
-background-color: rgb(255, 255, 255);
+
 border-top: 2mm red;
 border-bottom: 2mm red;
-background-image: url(top-image.png) ,
+background-image:linear-gradient(rgba(0,0,0,.2) 0%, rgba(0,0,0,.0) 25%),linear-gradient(rgba(0,0,0,0) 75%, rgba(0,0,0,.2) 100%) 
+,url(top-image.png) ,
 url(bottom-image.png);
 background-repeat: no-repeat;
-background-position: top, bottom;
- /* still need to add gradient */
+background-position: top,bottom, top, bottom;
+background-color: rgb(255, 255, 255);
+ /* still need to add gradient 
+   background-image: 
+   linear-gradient(105deg, rgba(0,0,0,1) 39%, rgba(0,0,0,1) 96%)
+ */
 
 
 } 
 
-address{
-  background-color: white;
-}
 
-p{
-  background-color: white;
-} 
-
-/* p background is covering the bottom image*/
+/* p background is covers the bottom image*/
 
 
 /**/ 
