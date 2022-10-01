@@ -1,0 +1,193 @@
+body {
+    background-color: 
+    rgba(213, 186, 219, 1);}
+
+h1{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+}
+
+h2{
+    font-family: 'Rosario';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 32px;
+
+color: #000000;
+
+}
+
+h3{
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+p{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 2fr;
+    grid-template-rows: 50px 250px 250px 50px;
+    gap: 0;
+  }
+  
+  .box1{
+    /* Hello World*/
+    display: flex;
+    grid-column: 1;
+    grid-row: 2/1;
+    height: 100%;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color:rgba(134, 96, 142, 1);
+   
+   /* background-color:rgba(134, 96, 142, 1);*/
+
+    
+  }
+
+  .box1 h1{
+    color: #fff;
+    float: right;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 30px;
+
+  }
+
+  /*
+  .box2{
+    /*Hello World*/
+   /* grid-column: 5/2;
+    grid-row: 2/1;
+    float: left;
+    bac
+  */
+  
+  .box2 {
+    /*Menu bar*/
+    display: flex;
+    grid-column:5/2;
+    grid-row: 1;
+    justify-content:flex-end;
+    height: 100%;
+    width: 100%;
+    outline: black;
+    background-color:rgba(134, 96, 142, 1);
+  
+    ;
+  }
+  nav {
+   
+    padding: .5em;
+    top:0; /* added this and line below*/ 
+    position: sticky;
+    background-color:rgba(134, 96, 142, 1);
+  }
+  
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content:space-between;
+    border-radius: 15px;
+  }
+  
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: .5em 1em;
+  }
+
+  .box3 {
+    /* Headshot*/
+    grid-column: 1;
+    grid-row: 2;
+    object-fit: scale-down;
+    background-color:rgba(134, 96, 142, 1);;
+
+
+  }
+
+.feature {
+    height: 80 px;
+    width: 40 px;
+    margin: 2px;
+    padding: 2px;
+    object-fit: contain;
+    object-position: top center;}
+
+.box4{
+    /* text*/
+    background-color: rgba(182, 149, 192, 1);
+    padding: 35 px auto;
+    margin: 10px;
+    grid-column:2/5;
+    grid-row: 2;
+}
+
+.box5 { /* link to AM site*/
+    background-color: 
+    rgba(182, 149, 192, 1);
+    padding: 30px auto;
+    margin: 10px;
+    grid-column:2/5;
+    grid-row: 3;
+  
+}
+
+.box6{
+   
+    grid-column: 1;
+    grid-row: 3.5/5;
+}
+
+.logo{
+    display: flexbox;
+    object-fit: contain;
+  
+}
+
+.link { color: #ffffff; } /* CSS link color (red) */
+.link:hover { color:rgba(35, 67, 177, 1); } /* CSS link hover (green) */
+
+img {
+
+    height: 100%;
+    width: 100%;
+
+  }
+
+
+
+
+  
+@media only screen and (max-width: 600px){
+    body{
+        background-color: green;
+    }
+  }
+    
+/* @media only screen and (max-width: 1900px){
+    body{
+        background-color:;
+    }
+  } */
+  
