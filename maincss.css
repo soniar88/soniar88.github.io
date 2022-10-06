@@ -1,6 +1,31 @@
 body {
     background-color: 
     rgba(213, 186, 219, 1);}
+  
+ul{
+  font-family: 'Nunito';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 19px;
+
+color: #301934;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+ol{
+  font-family: 'Nunito';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 19px;
+
+color: #301934;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
 
 h1{
     font-family: 'Nunito';
@@ -37,11 +62,10 @@ p{
     line-height: 19px;
 }
 
-
 .wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 2fr 2fr;
-    grid-template-rows: 50px 250px 250px 50px;
+    grid-template-rows: 50px 250px 250px 50px 50px;
     gap: 0;
   }
   
@@ -89,39 +113,39 @@ p{
     height: 100%;
     width: 100%;
     outline: black;
-    background-color:rgba(134, 96, 142, 1);
-  
-    ;
-  }
-  nav {
-   
-    padding: .5em;
-    top:0; /* added this and line below*/ 
-    position: sticky;
-    background-color:rgba(134, 96, 142, 1);
-  }
-  
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    justify-content:space-between;
-    border-radius: 15px;
-  }
-  
-nav a {
-    color: #fff;
-    text-decoration: none;
-    padding: .5em 1em;
+    background-color:rgb(110, 233, 135);
   }
 
-  .box3 {
+    nav {
+    
+        padding: .5em;
+        top:0; /* added this and line below*/ 
+        position: sticky;
+        background-color:rgba(134, 96, 142, 1);
+    }
+    
+    nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content:space-between;
+        border-radius: 15px;
+    }
+    
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: .5em 1em;
+    }
+
+.box3 {
     /* Headshot*/
     grid-column: 1;
     grid-row: 2;
     object-fit: scale-down;
-    background-color:rgba(134, 96, 142, 1);;
+    background-color:#218bb8;;
+    
 
 
   }
@@ -136,7 +160,7 @@ nav a {
 
 .box4{
     /* text*/
-    background-color: rgba(182, 149, 192, 1);
+    background-color: rgb(18, 214, 168);
     padding: 35 px auto;
     margin: 10px;
     grid-column:2/5;
@@ -145,7 +169,7 @@ nav a {
 
 .box5 { /* link to AM site*/
     background-color: 
-    rgba(182, 149, 192, 1);
+    rgb(224, 123, 22);
     padding: 30px auto;
     margin: 10px;
     grid-column:2/5;
@@ -157,13 +181,22 @@ nav a {
    
     grid-column: 1;
     grid-row: 3.5/5;
+    background-color: hotpink;
 }
 
 .logo{
     display: flexbox;
-    object-fit: contain;
-  
+    object-fit: contain; 
 }
+
+.box7 {
+  grid-column:1;
+  grid-row: 5;
+  background-color: rgb(255, 225, 0);
+  float: right;
+}
+
+
 
 .link { color: #ffffff; } /* CSS link color (red) */
 .link:hover { color:rgba(35, 67, 177, 1); } /* CSS link hover (green) */
@@ -176,6 +209,18 @@ img {
   }
 
 
+.button {
+
+  background-color:rgba(134, 96, 142, 1);
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
 
 
   
@@ -190,4 +235,13 @@ img {
         background-color:;
     }
   } */
-  
+ /* 
+.colors{
+  background: rgba(213, 186, 219, 1);
+  background: rgba(182, 149, 192, 1);
+  background: rgba(134, 96, 142, 1);
+  background: rgba(86, 60, 92, 1);
+  background: rgba(48, 25, 52, 1)
+
+
+} */
