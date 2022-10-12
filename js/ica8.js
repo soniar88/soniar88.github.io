@@ -5,4 +5,9 @@ function giveAlert() {
     alert('this is an alert');
     }
 
+    document.getElementById("h2").addEventListener("click", myFunction);
 
+function myFunction(){ {
+        innerHTML = "Ooops!";
+      }
+}
