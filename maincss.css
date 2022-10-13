@@ -238,7 +238,7 @@ nav {
   background-color: rgba(134, 96, 142, 1);
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 10px 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -246,6 +246,7 @@ nav {
   border-radius: 20px;
   margin: 5px 5px;
   width: 100%;
+  position: relative;
 }
 
 .button-home {
@@ -261,9 +262,14 @@ nav {
   margin: 5px 5px;
   width: 70%;
   align-content: center;
+
 }
 
 .button-home:hover{
+  background-color:rgba(48, 25, 52, 1) ;
+  
+}
+.button:hover{
   background-color:rgba(48, 25, 52, 1) ;
   
 }
