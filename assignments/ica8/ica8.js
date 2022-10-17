@@ -11,13 +11,26 @@ $("h3").on("mouseover"),function(){
   console
 }
 
-const button = document.querySelector('button');
+let jellybutton = document.querySelector('button');
+let jellypic = document.querySelector("Jelly");
+let jellyStatus = false;
 
-function clickButton() {
+jellypic.style.marginLeft = "-300px";
+
+function clickForJelly() {
+  if (jellyStatus == false){
+    jellypic.style.marginLeft = "0px";
+    jellyStatus == true;
+  }
+  else if (jellyStatus == true){
+    jellypic.style.marginLeft = "-300px";
+    jellyStatus == false;
+  }
 
 }
 
-button.addEventListener("click",clickButton)
+jellybutton.onclick = clickForJelly;
+
 
 const h3 = document.querySelector('h3');
 
