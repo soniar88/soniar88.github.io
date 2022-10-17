@@ -7,35 +7,9 @@ function giveAlert() {
 
     document.getElementById("h2").addEventListener("click", myFunction);
 
-$("h3").on("mouseover"),function(){
-  console
+var button = document.querySelector('button');
+var box = document.getElementsByClassName('box6');
+
+button.onclick = function changeColor(){
+  box.style.background ="blue";
 }
-
-let jellybutton = document.querySelector('button');
-let jellypic = document.querySelector("Jelly");
-let jellyStatus = false;
-
-jellypic.style.marginLeft = "-300px";
-
-function clickForJelly() {
-  if (jellyStatus == false){
-    jellypic.style.marginLeft = "0px";
-    jellyStatus == true;
-  }
-  else if (jellyStatus == true){
-    jellypic.style.marginLeft = "-300px";
-    jellyStatus == false;
-  }
-
-}
-
-jellybutton.onclick = clickForJelly;
-
-
-const h3 = document.querySelector('h3');
-
-function h3mouse() {
-
-}
-
-button.addEventListener("mouseover",h3mouse)
