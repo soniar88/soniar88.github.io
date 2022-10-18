@@ -312,7 +312,13 @@ img {
 
 
 
-    
+#colorbox {
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+  background-color: green;
+
+}
 /* @media only screen and (max-width: 1900px){
     body{
         background-color:;
