@@ -5,20 +5,24 @@ const btn = document.querySelector('button');
 const overlay = document.querySelector('.overlay');
 
 /* Declaring the array of image filenames */
-const imgArray = ["./images/pic1.jpg","images/pic2.jpg","images/pic3.jpg","images/pic4.jpg","images/pic5.jpg"]
+const imgArray = ["./images/pic1.jpg","./images/pic2.jpg","./images/pic3.jpg","./images/pic4.jpg","images/pic5.jpg"]
 /* Declaring the alternative text for each image file */
 
 const imgAltText = ["eye","wood","purpleFlower","ancientArt","moth"]
 /* Looping through images */ /* double loop or dictionary*/
 
-for (imagePath in imgArray){
-    for (altText in imgAltText){
-    const newImage = document.createElement('img');
-    newImage.setAttribute('src', imagePath);
-    newImage.setAttribute('alt', altText);
-    thumbBar.appendChild(newImage);}
 
+for (
+    let i = 0; i< imgArray.length; i++){
+    const newImage = document.createElement('img');
+    newImage.setAttribute('src', imagePath);}
+
+for (let i = 0; i< imgAltText.length; i++){
+    ;
+    newImage.setAttribute('alt', altText);
+    thumbBar.appendChild(newImage);
 }
+
 
 
 
