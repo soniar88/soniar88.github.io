@@ -29,4 +29,12 @@ const Company = {
 console.log(Company)
 
 // Problem 3
- 
+
+
+// Problem 4
+function Salary() 
+{ for (employee in Company[2]);
+    saralySum += employee[2]
+    return(saralySum)
+    }
+  
