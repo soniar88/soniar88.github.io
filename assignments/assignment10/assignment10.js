@@ -1,27 +1,21 @@
-/*problem 2 */
-{   "companyName"; "Tech Stars",
-    "website";"www.techstars.site",
-    "employees";[ /*problem 2 */
-        {
-            "firsName":"Sam",
+// problem 1
+const Sam = { "firsName":"Sam",
             "deparment":"Tech",
             "designation":"Manager",
             "saraly": 4000,
             "raiseEligible":true},
             
-            {"firsName":"Mary",
+const Mary = {"firsName":"Mary",
             "deparment":"Finace",
             "designation":"Trainee",
             "saraly":18500,
             "raiseEligible":true },
 
             
-            {"firsName":"Bill",
+ const Bill = {"firsName":"Bill",
             "deparment":"HR",
             "designation":"Executive",
             "saraly":21200,
-            "raiseEligible":false},
+            "raiseEligible":false}
 
-    
-
-}
+// problem 2
