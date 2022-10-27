@@ -24,7 +24,7 @@ console.log(Bill,Mary,Bill)
 const Company = {
         "companyName" : "Tech Stars",
         "website":"www.techstars.site",
-        "employees":[Sam,Mary,Bill,Ana]     
+        "employees":[Sam,Mary,Bill]     
         }
 console.log(Company)
 
