@@ -17,6 +17,7 @@ const Mary = {"firsName":"Mary",
             "designation":"Executive",
             "saraly":21200,
             "raiseEligible":false}
+
 console.log(Bill,Mary,Bill)
 
 // Problem 2 
@@ -29,12 +30,25 @@ const Company = {
 console.log(Company)
 
 // Problem 3
-
+function Employee(name,deparment,designation,saraly,raiseEligible ) {
+    this.name = name;
+    this.deparment = deparment;
+    this.designation = designation;
+    this.saraly =saraly;
+    this.raiseEligible =raiseEligible;
+    this.showConsole = function () {
+      console.log(Employee);
+    };
+  }
+  
+const Anna = new Employee("Anna", "Tech", "Executive", 25600, false)
 
 // Problem 4
-function Salary() 
-{ for (employee in Company[2]);
-    saralySum += employee[2]
-    return(saralySum)
-    }
-  
+
+for (person in Company[2]){
+    saralySum +=person[3] 
+
+return(saralySum)
+}
+
+console.log(saralySum)
