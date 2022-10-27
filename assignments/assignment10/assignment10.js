@@ -1,4 +1,4 @@
-// problem 1
+// Problem 1
 const Sam = { "firsName":"Sam",
             "deparment":"Tech",
             "designation":"Manager",
@@ -17,14 +17,15 @@ const Mary = {"firsName":"Mary",
             "designation":"Executive",
             "saraly":21200,
             "raiseEligible":false}
-console.log(Bill)
+console.log(Bill,Mary,Bill)
 
-// problem 2 
+// Problem 2 
 
 const Company = {
+        "companyName" : "Tech Stars",
+        "website":"www.techstars.site",
+        "employees":[Sam,Mary,Bill]     
+        }
+console.log(Company)
 
-"companyName" : "Tech Stars",
-"website":"www.techstars.site",
-"employees":[Sam,Mary,Bill ]
-    
-}/*problem 2 */
+// Problem 3
