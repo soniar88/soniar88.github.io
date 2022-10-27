@@ -43,12 +43,12 @@ function Employee(name,deparment,designation,saraly,raiseEligible ) {
   
 const Anna = new Employee("Anna", "Tech", "Executive", 25600, false)
 
+console.log(Anna)
+
 // Problem 4
 
-for (person in Company[2]){
-    saralySum +=person[3] 
+//Problem 5
 
-return(saralySum)
-}
+// Problem 6
 
-console.log(saralySum)
+
