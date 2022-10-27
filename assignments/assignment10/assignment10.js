@@ -3,13 +3,13 @@ const Sam = { "firsName":"Sam",
             "deparment":"Tech",
             "designation":"Manager",
             "saraly": 4000,
-            "raiseEligible":true},
+            "raiseEligible":true}
             
 const Mary = {"firsName":"Mary",
             "deparment":"Finace",
             "designation":"Trainee",
             "saraly":18500,
-            "raiseEligible":true },
+            "raiseEligible":true }
 
             
  const Bill = {"firsName":"Bill",
