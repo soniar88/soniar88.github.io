@@ -56,9 +56,10 @@ console.log(Anna);
 //Problem 4
 
 
-for (employees in Company['employees']){
+for (var key in Company){
+    for (var key in employees)
 ""
-    salarySum += employees['salary'];
+    salarySum += employee['salary'];
 
 return salarySum;
  }s
