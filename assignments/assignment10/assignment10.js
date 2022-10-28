@@ -56,10 +56,8 @@ console.log(Anna);
 //Problem 4
 
 
-for (var key in Company){
-
-
-
+for (salaly in Company.employees.saraly){
+   console.log(salary)
 }
 
 
