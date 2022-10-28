@@ -56,8 +56,19 @@ console.log(Anna)
 //Problem 4
 
 
+for (employees in Company['employees']);{
+""
+    salarySum += employees['salary']
+    console.log(salarySum)
 
-//Problem 5 
+return salarySum
+ }
+
+
+
+
+
+//Problem 5     
 
 
 //Problem 6
