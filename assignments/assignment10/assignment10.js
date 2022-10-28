@@ -24,7 +24,7 @@ const Mary = {"firsName":"Mary",
             "saraly":256200,
             "raiseEligible":false}
 
-console.log(Bill,Mary,Bill);
+console.log(Bill,Mary,Bill,Anna);
 
 // Problem 2 
 
@@ -58,11 +58,9 @@ console.log(Anna);
 
 for (var key in Company){
     for (var key in employees)
-""
-    salarySum += employee['salary'];
+        salarySum += employee['salary'];
 
-return salarySum;
- }s
+ }
 
  console.log(salarySum);
 
