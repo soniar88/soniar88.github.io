@@ -24,7 +24,7 @@ const Mary = {"firsName":"Mary",
             "saraly":256200,
             "raiseEligible":false}
 
-console.log(Bill,Mary,Bill)
+console.log(Bill,Mary,Bill);
 
 // Problem 2 
 
@@ -33,7 +33,7 @@ const Company = {
         "website":"www.techstars.site",
         "employees":[Sam,Mary,Bill,Anna]     
         }
-console.log(Company)
+console.log(Company);
 
 // Problem 3 
 
@@ -51,20 +51,19 @@ function Employee(name,deparment,designation,saraly,raiseEligible ) {
 // This didnt quite work
 // const Anna = new Employee("Anna", "Tech", "Executive", 25600, false)
 
-console.log(Anna)
+console.log(Anna);
 
 //Problem 4
 
 
-for (employees in Company['employees']);{
+for (employees in Company['employees']){
 ""
-    salarySum += employees['salary']
-    console.log(salarySum)
+    salarySum += employees['salary'];
 
-return salarySum
- }
+return salarySum;
+ }s
 
-
+ console.log(salarySum);
 
 
 
