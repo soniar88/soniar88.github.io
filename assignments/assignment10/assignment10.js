@@ -29,7 +29,8 @@ const Company = {
         }
 console.log(Company)
 
-// Problem 3
+// Problem 3 
+
 function Employee(name,deparment,designation,saraly,raiseEligible ) {
     this.name = name;
     this.deparment = deparment;
@@ -40,15 +41,18 @@ function Employee(name,deparment,designation,saraly,raiseEligible ) {
       console.log(Employee);
     };
   }
-  
+
 const Anna = new Employee("Anna", "Tech", "Executive", 25600, false)
 
 console.log(Anna)
 
-// Problem 4
+//Problem 4
 
-//Problem 5
+for
 
-// Problem 6
+//Problem 5 
+
+
+//Problem 6
 
 
