@@ -18,6 +18,12 @@ const Mary = {"firsName":"Mary",
             "saraly":21200,
             "raiseEligible":false}
 
+ const Anna = {"firsName":"Anna",
+            "deparment":"Tech",
+            "designation":"Executive",
+            "saraly":256200,
+            "raiseEligible":false}
+
 console.log(Bill,Mary,Bill)
 
 // Problem 2 
@@ -25,7 +31,7 @@ console.log(Bill,Mary,Bill)
 const Company = {
         "companyName" : "Tech Stars",
         "website":"www.techstars.site",
-        "employees":[Sam,Mary,Bill]     
+        "employees":[Sam,Mary,Bill,Anna]     
         }
 console.log(Company)
 
@@ -42,7 +48,8 @@ function Employee(name,deparment,designation,saraly,raiseEligible ) {
     };
   }
 
-const Anna = new Employee("Anna", "Tech", "Executive", 25600, false)
+// This didnt quite work
+// const Anna = new Employee("Anna", "Tech", "Executive", 25600, false)
 
 console.log(Anna)
 
