@@ -55,7 +55,7 @@ console.log(Anna)
 
 //Problem 4
 
-for
+
 
 //Problem 5 
 
