@@ -37,27 +37,14 @@ console.log(Company);
 
 // Problem 3 
 
-function Employee(name,deparment,designation,saraly,raiseEligible ) {
-    this.name = name;
-    this.deparment = deparment;
-    this.designation = designation;
-    this.saraly =saraly;
-    this.raiseEligible =raiseEligible;
-    this.showConsole = function () {
-      console.log(Employee);
-    };
-  }
-
-// This didnt quite work
-// const Anna = new Employee("Anna", "Tech", "Executive", 25600, false)
-
 console.log(Anna);
 
 //Problem 4
 
+let workers = Company.employees;
 
-for (salaly in Company.employees.saraly){
-   console.log(salary)
+for (let i=0; i > workers.length;i++){
+    console.log(workers[i])
 }
 
 
