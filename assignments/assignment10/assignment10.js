@@ -28,21 +28,20 @@ console.log(Sam,Mary,Bill,Anna);
 
 // Problem 2 
 
-const Company = {
+const company = {
         "companyName" : "Tech Stars",
         "website":"www.techstars.site",
         "employees":[Sam,Mary,Bill,Anna]     
         }
-console.log(Company);
+console.log(company);
 
 // Problem 3 
-
+sor
 console.log(Anna);
 
 //Problem 4
 
-let workers = Company.employees;
-
+let workers = company['employees'];
 for (let i=0; i > workers.length;i++){
     console.log(workers[i])
 }
