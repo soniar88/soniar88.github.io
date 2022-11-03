@@ -17,9 +17,9 @@ async function getQuote(){
   //console.log(json_response['name','latin_name']);
 }
 
-displayQuote(json_response);
+//displayQuote(json_response);
 
-function displayQuote(object){
+function displayQuote(json_response){
     //const quoteBox = document.querySelector("#js-quote-text");
     //console.log('display q working');
     //quoteBox.innerText(x);
@@ -27,11 +27,11 @@ function displayQuote(object){
    // const textMessage = document.createTextNode(x);
     
    // quoteBox.appendChild(textMessage);
-    document.getElementById('js-quote-text').textContent = object['animal'];
-    document.getElementById('latin-name').textContent = object['latin_name'];
-    document.getElementById('animal-habitat').textContent = object['habitat'];
-    document.getElementById('geo-range').textContent = object['geo_range'];
-    document.getElementById('animal-diet').textContent = object['diet'];
+    document.getElementById('js-quote-text').textContent = json_response['animal'];
+    document.getElementById('latin-name').textContent = json_response['latin_name'];
+    document.getElementById('animal-habitat').textContent = json_response['habitat'];
+    document.getElementById('geo-range').textContent = json_response['geo_range'];
+    document.getElementById('animal-diet').textContent = json_response['diet'];
 
 }
 
