@@ -1,3 +1,4 @@
+
 document.addEventListener("onload", getQuote);
 const quoteButton = document.querySelector('.new-quote'); 
 quoteButton.addEventListener('click', getQuote);
@@ -12,27 +13,30 @@ async function getQuote(){
   //let message = response['message'];
 
   let json_response = JSON.parse(response);
-  console.log(json_response)
   // console.log(json_response);
-  //console.log(json_response['name','latin_name']);
+  console.log(json_response);
+  displayQuote(json_response);
 }
 
-//displayQuote(json_response);
-
-function displayQuote(json_response){
+function displayQuote(object){
     //const quoteBox = document.querySelector("#js-quote-text");
     //console.log('display q working');
     //quoteBox.innerText(x);
 
    // const textMessage = document.createTextNode(x);
-    
-   // quoteBox.appendChild(textMessage);
-    document.getElementById('js-quote-text').textContent = json_response['animal'];
-    document.getElementById('latin-name').textContent = json_response['latin_name'];
-    document.getElementById('animal-habitat').textContent = json_response['habitat'];
-    document.getElementById('geo-range').textContent = json_response['geo_range'];
-    document.getElementById('animal-diet').textContent = json_response['diet'];
 
-}
+   // quoteBox.appendChild(textMessage);
+    document.getElementById('js-quote-text').textContent = object['name'];
+    document.getElementById('latin-name').textContent = "Latin name: "+ object['latin_name'];
+    document.getElementById('animal-type').textContent = "Type: "+object['animal_type'];
+    document.getElementById('animal-lifespan').textContent = "Lifespan: " + object['lifespan'];
+    document.getElementById('animal-habitat').textContent = "Habitat: "+ object['habitat'];
+    document.getElementById('animal-geo').textContent = "Locations: "+object['geo_range'];
+    document.getElementById('animal-diet').textContent ="Diet: "+object['diet'];
+    
+    let image = document.getElementById('animal-img')
+    image.src = object["image_link"]
+  
+  } 
 
 getQuote();
