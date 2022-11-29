@@ -26,3 +26,26 @@ function callback(){
 }
 
 callback();
+
+
+//
+
+const animation = alice1.animate(aliceTumbling,aliceTiming)
+
+animation.finished.then(()=>alice2.animate(aliceTumbling,aliceTiming).finished.then(()=>alice2.animate(aliceTumbling,aliceTiming)))
+
+//
+
+async function awaitSeq(){
+  try{
+    await alice1.animate(aliceTumbling,aliceTiming).finished;
+    await alice2.animate(aliceTumbling,aliceTiming).finished;
+    alice3.animate(aliceTumbling,aliceTiming)
+  }
+  catch(error){
+    console.error('not able to animate: ${error}')
+  }
+  }
+
+
+awaitSeq();
