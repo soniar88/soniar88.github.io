@@ -32,7 +32,7 @@ callback();
 
 const animation = alice1.animate(aliceTumbling,aliceTiming)
 
-animation.finished.then(()=>alice2.animate(aliceTumbling,aliceTiming).finished.then(()=>alice2.animate(aliceTumbling,aliceTiming)))
+animation.finished.then(()=>alice2.animate(aliceTumbling,aliceTiming).finished.then(()=>alice3.animate(aliceTumbling,aliceTiming)))
 
 //
 
