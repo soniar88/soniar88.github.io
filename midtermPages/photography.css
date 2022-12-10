@@ -130,6 +130,7 @@ button {
 
 
 footer {
+    margin-top: 10px;
     border-top: 3px solid purple;
     grid-area: footer;
     text-align: center; 
