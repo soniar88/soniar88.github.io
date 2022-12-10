@@ -1,5 +1,5 @@
 body {
-  background-color:rgba(213, 186, 219, 1);}
+  background-color:rgb(255, 255, 255);}
   
 li ol{
   font-family: 'Nunito';
@@ -24,11 +24,19 @@ a:hover{
 }
 
 h1{
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 40px;
-    line-height: 50px;
+  position: absolute;
+  width: 440px;
+  height: 28px;
+  left: 40px;
+  top: 51px;
+  
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 41px;
+  
+  color: #000000;
 }
 
 h2{
@@ -71,7 +79,7 @@ p{
 .wrapper {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 50px 250px 250px 100px;
+    grid-template-rows: 80px 250px 250px 100px;
     gap: 0;
   }
 
@@ -92,12 +100,11 @@ p{
   .box1 h1{
     color: #fff;
     float: right;
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 26px;
-    line-height: 26px;
-
+    position: absolute;
+    width: 440px;
+    height: 28px;
+    left: 40px;
+    top: 51px;
   }
 
 
@@ -278,6 +285,10 @@ nav {
   display: block;
   align-items: center;
 
+}
+
+.logo{
+  float:left;
 }
 
 
