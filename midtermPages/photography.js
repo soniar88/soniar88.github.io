@@ -20,16 +20,3 @@ for (let i = 1; i<=16; i++){
         displayedImage["src"] = newImg["src"]//Replaces displayed image value with clicked image
     })
 }
-btn.onclick = function(){
-    let att = btn.getAttribute("class");
-    if(att == "dark"){
-        btn.setAttribute("class", "light");
-        btn.textContent = "Lighten";
-        overlay.style.backgroundColor = "rgba(0,0,0,0.5)";
-    }
-    else{
-        btn.setAttribute("class","dark");
-        btn.textContent = "Darken";
-        overlay.style.backgroundColor = "rgba(0,0,0,0)";
-    }
-}
