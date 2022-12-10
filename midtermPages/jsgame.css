@@ -48,6 +48,12 @@
 
 @keyframes block{
     0%{left:580px;}
-    100%{left:0px;}
+    100%{left:-20px;}
     
+}
+
+
+
+.instructions{
+    float: right;
 }

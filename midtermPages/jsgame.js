@@ -23,7 +23,5 @@ var checkStatus = setInterval(function(){
 
     if (blockLeft<50 && blockLeft>0 && characterTop >=140){
         alert("Game over :(");
-
-
-    }},10);
+}},10);
 
